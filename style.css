@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+nav a {
+color: #fff;
+margin-left: 15px;
+text-decoration: none;
+}
+
+
+section {
+padding: 40px 0;
+}
+
+
+.container {
+width: 90%;
+margin: auto;
+}
+
+
+.area-principal { background: #f4f4f4; }
+.servicos { background: #e0e0e0; }
+.sobre { background: #f4f4f4; }
+.contato { background: #e0e0e0; }
+
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+margin-top: 20px;
+}
+
+
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;
+}
+
+
+input, textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+
+button {
+padding: 10px;
+border: none;
+border-radius: 5px;
+background: #222;
+color: #fff;
+cursor: pointer;
+}
+
+
+footer {
+background: #111;
+color: #ccc;
+text-align: center;
+padding: 10px 0;
+}
